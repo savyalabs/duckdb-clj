@@ -4,6 +4,12 @@ All notable changes to this project are documented here. Format follows [Keep a 
 
 ## [Unreleased]
 
+## [0.9.1] - 2026-10-04
+
+### Changed
+
+- Bump `org.duckdb/duckdb_jdbc` to 1.5.6.0.
+
 ## [0.9.0] - 2026-08-30
 
 ### Changed

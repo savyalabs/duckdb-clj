@@ -28,13 +28,13 @@ types are unaffected and retain full native chunked performance.
 deps.edn:
 
 ```clojure
-net.clojars.savya/duckdb-clj {:mvn/version "0.9.1"}
+net.clojars.savya/duckdb-clj {:mvn/version "0.9.2"}
 ```
 
 Leiningen:
 
 ```clojure
-[net.clojars.savya/duckdb-clj "0.9.1"]
+[net.clojars.savya/duckdb-clj "0.9.2"]
 ```
 
 The library bundles `org.duckdb/duckdb_jdbc`, an embedded database with no

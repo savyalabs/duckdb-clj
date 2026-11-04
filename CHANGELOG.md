@@ -4,6 +4,12 @@ All notable changes to this project are documented here. Format follows [Keep a 
 
 ## [Unreleased]
 
+## [0.9.2] - 2026-11-03
+
+### Changed
+
+- Bump dependencies: next.jdbc 1.4.72, duckdb_jdbc 2.0.0.1.
+
 ## [0.9.1] - 2026-10-04
 
 ### Changed

@@ -4,6 +4,12 @@ All notable changes to this project are documented here. Format follows [Keep a 
 
 ## [Unreleased]
 
+## [0.9.3] - 2026-11-25
+
+### Changed
+
+- Bump duckdb_jdbc to 2.0.1.0 and Apache Arrow (optional) to 20.0.0.
+
 ## [0.9.2] - 2026-11-03
 
 ### Changed

@@ -28,13 +28,13 @@ types are unaffected and retain full native chunked performance.
 deps.edn:
 
 ```clojure
-net.clojars.savya/duckdb-clj {:mvn/version "0.9.2"}
+net.clojars.savya/duckdb-clj {:mvn/version "0.9.3"}
 ```
 
 Leiningen:
 
 ```clojure
-[net.clojars.savya/duckdb-clj "0.9.2"]
+[net.clojars.savya/duckdb-clj "0.9.3"]
 ```
 
 The library bundles `org.duckdb/duckdb_jdbc`, an embedded database with no
@@ -49,10 +49,10 @@ not the base dependency set:
 {:aliases
  {:arrow
   {:extra-deps
-   {org.apache.arrow/arrow-vector {:mvn/version "19.0.0"}
-    org.apache.arrow/arrow-memory-core {:mvn/version "19.0.0"}
-    org.apache.arrow/arrow-memory-unsafe {:mvn/version "19.0.0"}
-    org.apache.arrow/arrow-c-data {:mvn/version "19.0.0"}}
+   {org.apache.arrow/arrow-vector {:mvn/version "20.0.0"}
+    org.apache.arrow/arrow-memory-core {:mvn/version "20.0.0"}
+    org.apache.arrow/arrow-memory-unsafe {:mvn/version "20.0.0"}
+    org.apache.arrow/arrow-c-data {:mvn/version "20.0.0"}}
    :jvm-opts ["--add-opens=java.base/java.nio=ALL-UNNAMED"]}}}
 ```
 
